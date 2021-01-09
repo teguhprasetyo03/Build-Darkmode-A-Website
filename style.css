@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  font-size: 18px;
+  background: #675c5c;
+  padding: 35px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+article h1 {
+  font-size: 4em;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+article a {
+  color: #fff;
+  background: orangered;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+p {
+  font-size: 20px;
+}
+article a:hover {
+  background: rgb(119, 172, 33);
+}
+
+img {
+  max-width: 800px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 20px;
+}
